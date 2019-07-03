@@ -3,6 +3,7 @@
 namespace KairosPublisher;
 
 use KairosPublisher\Exception\NoPublisherException;
+use Uuid\Uuid;
 
 /**
  * class Kairos

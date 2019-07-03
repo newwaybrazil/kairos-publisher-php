@@ -2,8 +2,9 @@
 
 use Predis\Client;
 use KairosPublisher\Publisher;
+use PHPUnit\Framework\TestCase;
 
-class PublisherTest extends PHPUnit_Framework_TestCase
+class PublisherTest extends TestCase
 {
     /**
      * @covers \KairosPublisher\Publisher::__construct

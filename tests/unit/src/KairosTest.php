@@ -2,8 +2,9 @@
 
 use KairosPublisher\Kairos;
 use KairosPublisher\ValidateConfig;
+use PHPUnit\Framework\TestCase;
 
-class KairosTest extends PHPUnit_Framework_TestCase
+class KairosTest extends TestCase
 {
     /**
      * @covers \KairosPublisher\Kairos::connect

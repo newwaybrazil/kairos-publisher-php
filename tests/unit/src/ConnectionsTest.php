@@ -1,8 +1,9 @@
 <?php
 
 use KairosPublisher\Connections;
+use PHPUnit\Framework\TestCase;
 
-class ConnectionsTest extends PHPUnit_Framework_TestCase
+class ConnectionsTest extends TestCase
 {
     /**
      * @covers \KairosPublisher\Connections::__construct

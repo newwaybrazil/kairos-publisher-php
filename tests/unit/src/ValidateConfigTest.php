@@ -1,9 +1,9 @@
 <?php
 
 use KairosPublisher\ValidateConfig;
-use KairosPublisher\Exception\ValidationException;
+use PHPUnit\Framework\TestCase;
 
-class ValidateConfigTest extends PHPUnit_Framework_TestCase
+class ValidateConfigTest extends TestCase
 {
     /**
      * @covers \KairosPublisher\ValidateConfig::validate
