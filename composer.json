@@ -3,6 +3,7 @@
     "description": "PHP library to publish messages to Kairos.",
     "version": "1.0.1",
     "type": "library",
+    "license": "GPL-3.0-only",
     "require": {
         "php" : "^7.1",
         "predis/predis": "~1.1.0",
